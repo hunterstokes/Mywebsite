@@ -11,12 +11,6 @@ const Head = props => (
     <title>{props.title}</title>
     <meta name="description" content={props.description || defaultDescription} />
 
-    {/* Bootstrap Styles */}
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    />
-
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" sizes="192x192" href="/static/touch-icon.png" />
     <link rel="apple-touch-icon" href="/static/touch-icon.png" />
