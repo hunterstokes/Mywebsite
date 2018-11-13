@@ -7,6 +7,7 @@ body {
   background: url(https://res.cloudinary.com/huntersattachments/image/upload/c_fill,q_50/v1542058371/IMG_2525.jpg) fixed center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 100vh;
   color: white;
   display: flex;
