@@ -9,7 +9,7 @@ export default class Aboutme extends Component {
           <a id="aboutme">About</a>
         </h3>
         <p>
-          Full stack web developer with a passion for creating responsive and
+          Full stack web developer with a passion for create responsive and
           scalable web applications. I am currently working at{" "}
           <a href="http://tutti.space">Tutti</a> as a React Native developer. I
           spend my free time playing with my dog, surfing, and building PCs.
