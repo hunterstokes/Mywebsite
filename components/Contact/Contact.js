@@ -6,15 +6,15 @@ export default class Contact extends Component {
     return (
       <div className={styles.Contact}>
         <h3>Contact</h3>
-        <ul>
-          <li>E: hunterstokes@me.com</li>
-          <li>P: (760) 224-0384</li>
-          <li>
+        
+          <h6>E: hunterstokes@me.com</h6>
+          <h6>P: (760) 224-0384</h6>
+          <h6>
             <a href="https://res.cloudinary.com/huntersattachments/image/upload/v1542063384/Hunter_s_Resume.pdf">
               Resume
             </a>
-          </li>
-        </ul>
+          </h6>
+        
       </div>
     );
   }
