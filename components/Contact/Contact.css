@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.Contact {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.Contact h3 {
+  font-size: 3rem;
+  text-align: center;
+}

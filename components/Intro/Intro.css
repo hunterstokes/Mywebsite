@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,900');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 body {
   margin: 0;
 }
@@ -7,34 +7,38 @@ body {
   background: url(https://res.cloudinary.com/huntersattachments/image/upload/c_fill,q_50/v1542058371/IMG_2525.jpg) fixed center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 0;
   height: 100vh;
   color: white;
-  margin: 0;
-}
-
-.Myname h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  font-size: 10vh;
-  padding-top: 36vh;
-  margin: 0;
-  padding-bottom: 1vh;
-  
 }
 
-.Myname p {
+.Myname > * {
+  margin: 1rem 0;
+}
+
+.Myname h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+  padding-top: 75px;
+}
+
+.Myname h4 {
   font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    width: 30%;
-    margin: auto;
-    padding-top: 0x;
-    padding-bottom: 0px;
-    font-size: 3vh;
-    color: #484848;
-    background-color: white;
-    border-radius: 15px;
-  
+  color: #484848;
+  background-color: white;
+  border-radius: 15px; 
+  padding: 1rem;
+  max-width: 300px;
+}
+
+.icon {
+  fill: white;
+  width: 75px;
+  position: relative;
+  top: 20%;
 }
