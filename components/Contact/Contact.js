@@ -10,7 +10,7 @@ export default class Contact extends Component {
           <h6>E: hunterstokes@me.com</h6>
           <h6>P: (760) 224-0384</h6>
           <h6>
-            <a href="https://res.cloudinary.com/huntersattachments/image/upload/v1542063384/Hunter_s_Resume.pdf">
+            <a href="https://res.cloudinary.com/huntersattachments/image/upload/v1658717438/Hunter_Brown_Resume.pdf">
               Resume
             </a>
           </h6>
